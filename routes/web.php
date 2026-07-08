@@ -19,6 +19,8 @@ Route::get('/', function () {
 
 Route::get('/buku/search',[BukuController::class,'search'])->name('buku.search');
 Route::get('/buku/kategori/{kategori}', [BukuController::class, 'filterKategori'])->name('buku.kategori');
+Route::post('/buku/bulk-delete',[BukuController::class, 'bulkDelete'])->name('buku.bulk-delete');
+Route::get('/buku/export', [BukuController::class, 'export'])->name('buku.export');
 Route::resource('buku', BukuController::class);
 Route::resource('anggota', AnggotaController::class);
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');

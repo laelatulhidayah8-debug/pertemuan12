@@ -8,12 +8,19 @@
         <i class="bi bi-book"></i>
         Daftar Buku
     </h1>
-    <a href="{{ route('buku.create') }}" class="btn btn-primary">
-        <i class="bi bi-plus-circle"></i> Tambah Buku
-    </a>
+
+    <div class="d-flex gap-2">
+        <a href="{{ route('buku.export') }}" class="btn btn-success">
+            <i class="bi bi-download"></i> Export CSV
+        </a>
+
+        <a href="{{ route('buku.create') }}" class="btn btn-primary">
+            <i class="bi bi-plus-circle"></i> Tambah Buku
+        </a>
+    </div>
 </div>
 
-<h1>
+
     {{-- Form Search & Filter --}}
 <div class="card mb-4">
     <div class="card-body">
@@ -79,8 +86,7 @@
             </div>
         </form>
     </div>
-</div>
-</h1>
+ </div>
  
 {{-- Statistik Cards --}}
 <div class="row mb-4">
@@ -161,6 +167,20 @@
         </div>
     </div>
 </div>
+
+    <form action="{{ route('buku.bulk-delete') }}" method="POST">
+    @csrf
+
+    <div class="mb-3">
+        <input type="checkbox" id="select-all">
+        <label for="select-all">Pilih Semua</label>
+
+        <button type="submit"
+                class="btn btn-danger btn-sm ms-3"
+                onclick="return confirm('Hapus semua buku yang dipilih?')">
+            <i class="bi bi-trash"></i> Hapus Terpilih
+        </button>
+    </div>
  
 {{-- Daftar Buku --}}
     <div class="row">
@@ -182,6 +202,7 @@
         </div>
     @endforelse
     </div>
+    </form>
 
 
  
@@ -196,3 +217,15 @@
     </div>
 @endif
 @endsection
+
+@push('scripts')
+<script>
+document.getElementById('select-all').addEventListener('change', function () {
+
+    document.querySelectorAll('input[name="buku_ids[]"]').forEach(cb => {
+        cb.checked = this.checked;
+    });
+
+});
+</script>
+@endpush

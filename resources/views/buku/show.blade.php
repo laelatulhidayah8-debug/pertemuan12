@@ -157,16 +157,17 @@
                 <a href="{{ route('buku.index') }}" class="btn btn-outline-primary">
                     <i class="bi bi-arrow-left"></i> Kembali
                 </a>
-                
-                <hr>
-                
-                <form action="{{ route('buku.destroy', $buku->id) }}" method="POST" onsubmit="return confirm('Yakin ingin menghapus buku ini?')">
+                <form action="{{ route('buku.destroy', $buku->id) }}" 
+                    method="POST" 
+                    class="d-inline"
+                    onsubmit="return confirm('Apakah Anda yakin ingin menghapus buku {{ $buku->judul }}?')">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" class="btn btn-danger w-100">
-                        <i class="bi bi-trash"></i> Hapus Buku
+                    <button type="submit" class="btn btn-sm btn-danger w-100">
+                        <i class="bi bi-trash"></i> Hapus
                     </button>
                 </form>
+                <hr>
             </div>
         </div>
         

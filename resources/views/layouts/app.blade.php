@@ -11,6 +11,9 @@
     
     {{-- Bootstrap Icons --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+     {{-- SweetAlert2 CSS --}}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.min.css">
     
     {{-- Custom CSS --}}
     <style>
@@ -80,6 +83,33 @@
     
     {{-- Bootstrap JS --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    {{-- SweetAlert2 JS --}}
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.0/dist/sweetalert2.all.min.js"></script>
+    <script>
+    function confirmDelete(event, form){
+
+        event.preventDefault();
+
+        Swal.fire({
+            title: 'Yakin hapus buku?',
+            text: "Data tidak bisa dikembalikan!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Ya, hapus!',
+            cancelButtonText: 'Batal'
+        }).then((result)=>{
+
+            if(result.isConfirmed){
+                form.submit();
+            }
+
+        });
+
+        return false;
+    }
+
+    </script>
     
     @stack('scripts')
 </body>
