@@ -1,62 +1,20 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 📚 Sistem Informasi Perpustakaan Laravel - Pertemuan 11
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 👤 Identitas
 
-## About Laravel
+- **Nama:** Laelatul Hidayah
+- **NIM:** (Isi NIM Anda)
+- **Program Studi:** Informatika
+- **Fakultas:** SainTek
+- **Universitas:** UIN K.H. Abdurrahman Wahid Pekalongan
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
-
-## Agentic Development
-
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
-
-```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
-```
-
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# pemweb-Pertemuan10
->>>>>>> 9db584bec03f00d516fde563bf198efbde6f15ff
+<img width="1079" height="567" alt="Screenshot 2026-07-08 182953" 
+src="https://github.com/user-attachments/assets/f644b200-6fde-49da-b3e1-055d294acfc3" />
+<img width="735" height="396" alt="Screenshot 2026-07-08 142720" src="https://github.com/user-attachments/assets/a0175940-848e-456a-a11a-ed865a4decfa" />
+<img width="880" height="553" alt="Screenshot 2026-07-08 142800" src="https://github.com/user-attachments/assets/8bcc1a60-55e9-4cd1-9567-fc1c875dae15" />
+<img width="700" height="400" alt="Screenshot 2026-07-08 142946" src="https://github.com/user-attachments/assets/686506eb-00ce-48d3-8721-206b8c2028fa" />
+<img width="1074" height="669" alt="Screenshot 2026-07-08 153706" src="https://github.com/user-attachments/assets/2cc4dfb4-3a64-416e-8108-03f5d589429a" />
+<img width="420" height="391" alt="Screenshot 2026-07-08 162120" src="https://github.com/user-attachments/assets/778ea8b9-2d40-49b9-adfc-f2f01949bda3" />
+<img width="1004" height="621" alt="Screenshot 2026-07-08 182759" src="https://github.com/user-attachments/assets/3f5e2745-c5be-40a6-ad7f-8be4bd194d3f" />
+<img width="400" height="180" alt="Screenshot 2026-07-08 182842" src="https://github.com/user-attachments/assets/e3708b02-af84-48af-8208-01951eea7c25" />
