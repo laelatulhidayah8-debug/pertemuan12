@@ -3,7 +3,7 @@
 ## 👤 Identitas
 
 - **Nama:** Laelatul Hidayah
-- **NIM:** (Isi NIM Anda)
+- **NIM:** 60324009
 - **Program Studi:** Informatika
 - **Fakultas:** SainTek
 - **Universitas:** UIN K.H. Abdurrahman Wahid Pekalongan
